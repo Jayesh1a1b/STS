@@ -11,6 +11,7 @@ public class OpenFlipkartApplication {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.close();
-		Thread.sleep(2);
+		Thread.sleep(200);
+		System.out.println(" socket exception");
 	}
 }

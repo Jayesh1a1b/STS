@@ -11,6 +11,6 @@ public class OpenPaytmApplication {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://paytm.com/");
 		driver.close();
-		Thread.sleep(2);
+		
 	}
 }
